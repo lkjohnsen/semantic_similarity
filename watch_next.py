@@ -35,7 +35,7 @@ def stored_movies():
 
 def similarity_check(movie_dictionary, description):
     """This function takes in two arguments: movie_dictionary and description.
-    The movie descriptions in the movie_dictionary is then compared against the description
+    The movie descriptions in the movie_dictionary are then compared against the description
     of the movie "Planet Hulk", and the most semantically similar movie is returned.
 
     Args:
